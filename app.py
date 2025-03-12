@@ -5,12 +5,12 @@ import ollama
 from pydantic import BaseModel
 from pydantic_ai import Agent
 
-# Define a structured response model using Pydantic
+# Defined a structured response model using Pydantic
 class QueryModel(BaseModel):
     question: str
     answer: str
 
-# Define a Pydantic AI Agent
+# Defined a Pydantic AI Agent
 class CSVAgent(Agent):
     def __init__(self, df):
         super().__init__()
@@ -94,7 +94,7 @@ with gr.Blocks() as app:
 
     submit_button = gr.Button("Submit")
 
-    # Update column dropdowns based on uploaded CSV
+    # Updated column dropdowns based on uploaded CSV
     def update_columns(file):
         df, _ = validate_csv(file)
         if df is not None:
@@ -110,5 +110,5 @@ with gr.Blocks() as app:
         outputs=[answer_output, plot_output]
     )
 
-# Launch the app
+#To Launch the app
 app.launch()
