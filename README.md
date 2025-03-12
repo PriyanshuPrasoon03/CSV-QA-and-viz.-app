@@ -20,8 +20,7 @@ This is a **Gradio-based application** that allows users to:
 ## **🛠 Installation & Setup**
 ### **1️⃣ Clone the Repository**
 ```
-git clone https://github.com/<your-username>/gradio-csv-qa.git
-cd gradio-csv-qa
+git clone https://github.com/PriyanshuPrasoon03/CSV-QA-and-viz.-app.git
 ```
 
 ### **2️⃣ Set Up a Virtual Environment**
