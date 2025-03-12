@@ -85,7 +85,6 @@ gradio-csv-qa/
 │── app.py              # Main Gradio app
 │── requirements.txt    # Dependencies
 │── README.md           # Project documentation
-│── screenshots/        # Folder for UI screenshots
 │── .venv/              # Virtual environment (not committed)
 ```
 
